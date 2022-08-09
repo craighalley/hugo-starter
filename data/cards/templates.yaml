@@ -1,0 +1,6 @@
+header: Templates
+url: https://gohugo.io/templates/
+bgColor: bg-danger
+body: Hugo templates are HTML files with the addition of
+  `variables` and `functions`. Template variables and functions
+  are accessible within double brace marks.

@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+[[menu.main]]
+  identifier = 'blog'
+  name = 'Blog'
+  url = '/posts/'

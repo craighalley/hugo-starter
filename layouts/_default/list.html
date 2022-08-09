@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="px-4 py-5">
+  <div class="py-5">
+    <h1 class="display-3 fw-bold">{{ .Title }}</h1>
+    <div class="col mt-5">
+      {{ range .Pages }}
+      <div class="mb-5">
+        <h5>{{ .Title }}</a></h5>
+        <p class="mb-1 text-uppercase fw-bold text-info" style="font-size:11px;">{{ .Date }}</p>
+        <p class="text-muted">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-outline-light btn-sm ">Read More</a>
+      </div>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

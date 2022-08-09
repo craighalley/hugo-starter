@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="px-4 py-5 text-center">
+  <div class="py-5">
+    <h1 class="display-3 fw-bold">{{ .Title }}</h1>
+    <div class="col-6 mx-auto">
+      <p>{{ .Content }}</p>
+    </div>
+    {{ partial "partials/cardlist.html" . }}
+  </div>
+</div>
+{{ end }}

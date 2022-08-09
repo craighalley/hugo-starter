@@ -1,0 +1,6 @@
+header: Blocks
+url: https://gohugo.io/templates/base/
+bgColor: bg-primary
+body: The `block` keyword allows you to define the outer shell
+  of a page within one or more base templates, and then fill in or
+  override portions as necessary.

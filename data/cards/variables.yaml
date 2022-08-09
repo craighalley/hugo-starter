@@ -1,0 +1,7 @@
+header: Variables
+url: https://gohugo.io/templates/introduction/#variables
+bgColor: bg-info
+body: In Hugo, each each template is passed a Page data object to provide
+  it with context for generating the page. That context is accessible
+  within a template using variables like `.Title` and
+  `.IsHome`.

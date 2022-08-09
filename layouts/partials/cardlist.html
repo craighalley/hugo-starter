@@ -1,0 +1,5 @@
+<div class="row row-cols-3 g-4 mt-5">
+  {{ range $.Site.Data.cards }}
+    {{ partial "partials/card.html" . }}
+  {{ end }}
+</div>
